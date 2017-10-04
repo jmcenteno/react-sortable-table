@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "style-loader": "^0.18.2"
+    "react": "^15.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,6 +31,7 @@
     "file-loader": "^0.11.2",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^2.7.0"
   }
