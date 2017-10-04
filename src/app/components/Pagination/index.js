@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Pagination({ activePage, totalPages, setActivePage, ...rest }) {
+function Pagination({ activePage, totalPages, setActivePage }) {
 
   return (
     <nav className="sortable-table-pagination" aria-label="Page navigation">
@@ -38,6 +38,10 @@ function Pagination({ activePage, totalPages, setActivePage, ...rest }) {
 
 }
 
-Pagination.propTypes = {};
+Pagination.propTypes = {
+  activePage: PropTypes.number.isRequired, 
+  totalPages: PropTypes.number.isRequired, 
+  setActivePage: PropTypes.func.isRequired
+};
 
 export default Pagination;
